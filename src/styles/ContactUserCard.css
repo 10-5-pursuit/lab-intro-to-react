@@ -1,0 +1,25 @@
+.card{
+    display: grid;
+    text-align: left;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 130px 100px;
+    column-gap: 10px;
+    margin-bottom: 50px;
+}
+.card img{
+    grid-row: 1 / span 3;
+}
+.card h2{
+    grid-row: 1;
+    grid-column: 2;
+    font-size: 18px;
+    align-content: end;
+}
+.card h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.card p{
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+}

@@ -1,0 +1,16 @@
+.nav-bar{
+    background: linear-gradient(black, rgb(65, 65, 65));
+    display: flex;
+    color: rgba(255, 255, 255, 0.95);
+    justify-content: right;
+    padding: 10px 30px;
+}
+.why{
+    margin-right: 30px;
+}
+.why, .spend{
+    &:hover{
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.85);
+    }
+}
