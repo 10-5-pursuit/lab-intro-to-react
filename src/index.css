@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  display: flex;
 }
 
 html,
@@ -8,4 +9,37 @@ body,
 #root {
   height: 100%;
   width: 100%;
+}
+
+main{
+  display: grid;
+  grid-template-rows: 340px 1fr;
+  grid-template-columns: 1fr 325px;
+}
+.profile{
+  grid-row: 1;
+  grid-column: 1;
+}
+.posts{
+  grid-row: 2;
+  grid-column: 1;
+}
+.contacts{
+  grid-row: 1 / span 2;
+  grid-column: 2;
+}
+
+@media (max-width: 700px) {
+  .profile{
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+  .posts{
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+  .contacts{
+    grid-row: 3 ;
+    grid-column: 1 / span 2;
+  }
 }
