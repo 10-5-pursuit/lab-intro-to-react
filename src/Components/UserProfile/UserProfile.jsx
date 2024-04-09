@@ -5,7 +5,7 @@ function UserProfile() {
   return (
     <div className={UserProfileCSS["user-div"]}>
       <div className={UserProfileCSS["user-image"]}>
-        <img src="./src/profile.png" alt="User" />
+        <img src="../src/profile.png" alt="User" />
       </div>
       <div className={UserProfileCSS["user-details"]}>
         <h2>Jordan Walke</h2>
