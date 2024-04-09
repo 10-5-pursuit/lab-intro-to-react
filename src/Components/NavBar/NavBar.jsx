@@ -1,9 +1,11 @@
+import NavBarCSS from "./NavBar.module.css";
+
 function NavBar() {
   return (
     <header>
-      <h1>Profile Page</h1>
+      <h1 className={NavBarCSS["profile-page"]}>Profile Page</h1>
       <nav>
-        <ul>
+        <ul className={NavBarCSS["nav-links"]}>
           <li>
             <a href="#">What is Pursuit?</a>
           </li>
@@ -15,7 +17,6 @@ function NavBar() {
           </li>
         </ul>
       </nav>
-      <hr />
     </header>
   );
 }
