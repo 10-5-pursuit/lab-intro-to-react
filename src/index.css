@@ -9,3 +9,19 @@ body,
   height: 100%;
   width: 100%;
 }
+
+nav {
+  background-color: #ADD7E6;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 20px;
+}
+
+.navbar-pursuit {
+  margin-right: 10px; 
+}
+
+.navbar-acct {
+  margin-right: 10px; 
+}
