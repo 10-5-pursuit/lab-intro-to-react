@@ -9,3 +9,80 @@ body,
   height: 100%;
   width: 100%;
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 4fr 5fr;
+  grid-template-areas:
+          "navbar navbar"
+          "userProfile contacts"
+          "posts contacts" ;
+}
+
+.menu_bar{
+  grid-area: navbar;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #9fe5f1;
+  list-style: none;
+}
+.menu_bar ul {
+  margin-right: 20px;
+  list-style: none;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user_profile{
+  margin: 20px;
+  grid-area: userProfile;
+  border: 1px solid black;
+  .contact_user_card{
+    border: none;
+  }
+}
+
+/* contact User card css */
+.contact_user_card{
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+}
+.contact_info{
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.contact_user_card img{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.contact_user_card h3{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.contact_user_card h5{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.contact_user_card p{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  font-size: 10px;
+}
+  
+
+
