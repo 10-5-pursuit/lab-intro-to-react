@@ -1,8 +1,8 @@
-import ContacUserCard from "./ContactUserCard";
+import ContactUserCard from "./ContactUserCard";
 function UserProfile() {
     return (
         <div className="user_profile">
-            <ContacUserCard/>
+            <ContactUserCard/>
         </div>
     );
   }

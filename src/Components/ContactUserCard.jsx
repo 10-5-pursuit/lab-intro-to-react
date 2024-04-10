@@ -1,4 +1,5 @@
-function ContacUserCard() {
+import "../Styles/ContactUserCard.css";
+function ContactUserCard() {
     return (
         <div className="contact_user_card">
             <img src="./src/profile.png" />
