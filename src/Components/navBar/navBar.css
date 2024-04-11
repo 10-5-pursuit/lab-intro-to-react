@@ -1,0 +1,33 @@
+nav {
+  grid-area: nav;
+  background-color: #add8e6;
+  padding: 15px 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  justify-content: center;
+  place-items: end;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 5px 30px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 1.5em;
+  border: 1px solid #add8e6;
+
+  &:hover {
+    background-color: #add8e6;
+    color: white;
+    border-color: white;
+  }
+}
