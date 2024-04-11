@@ -1,3 +1,4 @@
+import "../Styles/NavBar.css";
 function Navbar() {
     return (
       <nav className="menu_bar">

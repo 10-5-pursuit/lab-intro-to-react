@@ -1,0 +1,15 @@
+.menu_bar{
+    grid-area: navbar;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #9fe5f1;
+    list-style: none;
+  }
+  .menu_bar ul {
+    margin-right: 20px;
+    list-style: none;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }

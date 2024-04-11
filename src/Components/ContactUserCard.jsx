@@ -12,4 +12,4 @@ function ContactUserCard() {
     );
   }
   
-  export default ContacUserCard;
+  export default ContactUserCard;
