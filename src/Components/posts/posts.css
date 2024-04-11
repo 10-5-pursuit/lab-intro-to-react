@@ -1,0 +1,18 @@
+.posts {
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.posts h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.user-profile p {
+  grid-area: p;
+  font-size: 12px;
+  padding: 20px;
+  font-weight: light;
+}
