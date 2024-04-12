@@ -1,0 +1,11 @@
+.contacts {
+    margin-right: 2em;
+    padding: 2em;
+    grid-area: contacts;
+    border: 2px solid black;
+  }
+  
+  .contacts h1 {
+    text-align: center;
+    padding-bottom: 1em;
+  }
