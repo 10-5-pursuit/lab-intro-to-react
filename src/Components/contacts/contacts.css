@@ -1,0 +1,12 @@
+.contacts {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    border: 1px solid black;
+    margin-top: 90px;
+    height: 69%;
+    width: 300%;
+}
+
+.contactTitle {
+    text-align: center;
+}

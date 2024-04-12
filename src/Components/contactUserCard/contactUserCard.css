@@ -1,0 +1,28 @@
+.contactUserCard {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    border: 1px solid black;
+    width: 85%;
+    margin: 0 auto;
+    height: 75%;
+    gap: 10px;
+}
+
+
+.contactCardName {
+    text-align: center;
+    font-size: 14px;
+}
+
+.contactCardInfo {
+    text-align: center;
+    font-size: 8px;
+}
+
+.contactUserCard img {
+    height: 85%;
+}
+
+.contactCardJob {
+    font-size: 10px;
+}

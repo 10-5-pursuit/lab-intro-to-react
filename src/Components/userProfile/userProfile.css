@@ -1,0 +1,31 @@
+.userProfile {
+    border: 1px solid black;
+    width: 400%;
+    height: 75%;
+    margin-left: 20px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: .2fr .2fr
+}
+
+.userInfo {
+    text-align: center;
+}
+
+.userName {
+    font-size: 16px;
+}
+
+.userJob {
+    font-size: 12px;
+}
+
+.userInfo {
+    font-size: 10px
+}
+
+img {
+    margin-left: 1px;
+    border: 1px solid lightgrey;
+    
+}
