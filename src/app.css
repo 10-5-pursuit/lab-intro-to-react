@@ -1,0 +1,17 @@
+.app {
+    display: grid;
+    column-gap: 4em;
+    row-gap: 2em;
+    grid-template:
+      "nav nav"
+      "main contacts";
+  }
+  
+  main {
+    width: 100%;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-left: 20px;
+  }
