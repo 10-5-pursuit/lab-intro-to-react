@@ -1,0 +1,9 @@
+nav {
+    background-color: hsl(195deg 53% 79%);
+    text-align: right;
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+}
