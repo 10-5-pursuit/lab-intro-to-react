@@ -1,6 +1,6 @@
 // Posts.jsx
 
-// import './Posts.css';
+import './Posts.css';
 
 export default function Posts() {
 
@@ -9,16 +9,16 @@ export default function Posts() {
         <section className='posts'>
             <h1 className='posts-title'>Posts</h1>
             <div className='posts-one'>
-                <p>Title</p>
-                <p>Bio</p>
+                <p id='ti' >Title</p>
+                <p id='bio'>Bio</p>
             </div>
             <div className='posts-two'>
-                <p>Title</p>
-                <p>Bio</p>
+                <p id='ti' >Title</p>
+                <p id='bio'>Bio</p>
             </div>
             <div className='posts-three'>
-                <p>Title</p>
-                <p>Bio</p>
+                <p id='ti' >Title</p>
+                <p id='bio'>Bio</p>
             </div>
         </section>
 

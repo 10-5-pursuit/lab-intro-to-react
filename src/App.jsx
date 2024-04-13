@@ -8,8 +8,12 @@ import Contacts from './Components/Contacts.jsx';
 function App() {
   return (
     <>
-      <NavBar/>
-      {/* <UserProfile/> */}
+     <NavBar/>
+    <section className="container">
+      <UserProfile/>
+      <Contacts/>
+      <Posts/>
+    </section>
     </>
 )
 }

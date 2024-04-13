@@ -4,6 +4,8 @@ nav {
     padding: 10px;
 }
 
-button {
+#first, 
+#second, 
+#third {
     margin: 10px;
 }
