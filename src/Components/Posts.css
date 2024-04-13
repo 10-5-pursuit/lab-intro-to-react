@@ -1,0 +1,23 @@
+.posts {
+    border: 1px solid black;
+    margin: 10px;
+    height: 275px;
+    width: 735px;
+    text-align: center;
+}
+
+.posts-one,
+.posts-two,
+.posts-three {
+    border: 1px solid black;
+    margin: 30px;
+}
+
+#ti {
+    margin: 5px;
+    font-weight: bold;
+}
+
+#bio {
+    font-size: 8pt;
+}

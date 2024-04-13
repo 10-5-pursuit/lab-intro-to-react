@@ -1,0 +1,63 @@
+.contact-list {
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    grid-row: span 2;
+    height: 440px;
+    /* padding: 10px; */
+}
+
+.contact-one,
+.contact-two,
+.contact-three,
+.contact-four {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 65px 35px;
+    padding-bottom: 20px;
+    margin: 10px;
+    height: 115px;
+    margin: 25px;
+    height: 65px;
+    padding: 0;
+    margin: 25px;
+}
+
+#contact-pic {
+    height: 65px;
+    
+}
+
+.contact-header {
+    padding: 0;
+    margin: 5px;
+    font-size: medium;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: smaller;
+}
+
+#contact-info-one {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#contact-info-two {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 9pt;
+    padding-top: 5px;
+
+}
+
+#contact-info-three {
+    padding-left: 30px;
+    font-size: 8pt;
+    padding-top: 5px;
+
+}

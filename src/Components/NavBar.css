@@ -1,0 +1,11 @@
+nav {
+    background-color: hsl(195deg 53% 79%);
+    text-align: right;
+    padding: 10px;
+}
+
+#first, 
+#second, 
+#third {
+    margin: 10px;
+}
