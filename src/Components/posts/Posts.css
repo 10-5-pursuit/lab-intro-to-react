@@ -1,0 +1,11 @@
+.posts{
+    border: 1px solid lightgray;
+    row-gap: 20px;
+    text-align: center;
+    margin: 20px 20px 40px 0;
+    width: 630px;
+    height: 290px;
+    align-items: center;
+    justify-content: center;
+
+}
