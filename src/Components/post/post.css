@@ -9,10 +9,12 @@
 }
 
 .postInfo {
+    text-align: center;
     font-size: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 }
 
 .postTitle {
+    text-align: center;
     font-size: 14px;
 }
