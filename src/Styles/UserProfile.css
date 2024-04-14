@@ -1,0 +1,9 @@
+.user_profile{
+    margin: 20px;
+    grid-area: userProfile;
+    border: 1px solid black;
+    .contact_user_card{
+      border: none;
+    }
+  }
+  

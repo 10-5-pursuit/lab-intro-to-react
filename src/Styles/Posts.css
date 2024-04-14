@@ -1,0 +1,11 @@
+.posts_container{
+    display: grid;
+    grid-area: posts;
+    margin: 20px;
+    border: 1px solid black;
+    
+}
+.posts_container h1{
+    text-align: center;
+    font-size: 15px;
+}

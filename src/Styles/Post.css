@@ -1,0 +1,11 @@
+.post{
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.post h2{
+    font-size: 13px;
+}
+.post p{
+    font-size: 10px;
+}
