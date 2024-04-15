@@ -1,0 +1,35 @@
+.contact-user-card {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 2em;
+    border: 1px solid black;
+    display: grid;
+    justify-content: left;
+    column-gap: 20px;
+    grid-template:
+      "img h1"
+      "img h2"
+      "img p";
+  }
+
+  .contact-user-card img {
+    grid-area: img;
+    border:solid #999999;
+  }
+  .contact-user-card h1 {
+    grid-area: h1;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 1em;
+    margin-bottom: -1.25em;
+  }
+
+  .contact-user-card h2 {
+    grid-area: h2;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: light;
+  }
+
+  p {
+    justify-self: center;
+  }
