@@ -22,7 +22,7 @@ Edit multiple JavaScript files in this lab as you get the hang of creating and u
 
 1. Ask your instructor if you will deploy this application to Netlify. If so, wait for the lesson on deployment to deploy and add the link to your netlify site below:
 
-[MY LIVE SITE URL]()
+[MY LIVE SITE URL](https://sadya104.github.io/lab-intro-to-react/)
 
 1. If you won't deploy this site, submit the URL to this GitHub repository.
 
