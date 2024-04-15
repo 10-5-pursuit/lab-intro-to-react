@@ -1,0 +1,39 @@
+.user-profile {
+    padding: 0px 0px 50px 0px;
+    border: 2px solid black;
+    display: grid;
+    justify-content: left;
+    column-gap: 20px;
+    grid-template:
+      "img h1"
+      "img h2"
+      "img p";
+  }
+
+  .user-profile img {
+    grid-area: img;
+    justify-self: start;   
+    border:solid #999999 ;
+  }
+
+  .user-profile h1 {
+    grid-area: h1;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-top: 1em;
+  }
+
+  .user-profile h2 {
+    grid-area: h2;
+    font-size: 18px;
+    justify-self: center;
+    font-weight: light;
+    margin-top: -1em;
+  }
+
+  .user-profile p {
+    grid-area: p;
+    font-size: 12px;
+    font-weight: light;
+    margin-top: -2em;
+    }
