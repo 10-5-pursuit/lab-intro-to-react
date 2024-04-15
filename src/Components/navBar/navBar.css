@@ -1,0 +1,23 @@
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    height: 100px;
+    background: lightblue;
+    padding-right: 10px;
+}
+
+#link {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 2px 10px;
+}
+
+button {
+    background-color: white;
+    padding: 2px 10px;
+    border: none;
+}
