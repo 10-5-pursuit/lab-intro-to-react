@@ -1,0 +1,6 @@
+.user-Information {
+    grid-area: userProfile;
+    background: rgb(131, 131, 225);
+    display: flex;
+    border: 2px solid black;
+}

@@ -1,0 +1,10 @@
+.platform {
+    display: grid;
+    border: 14px solid black;
+    grid-template-columns: 1fr, 1fr ,1fr;
+    grid-template-rows: 1fr 2fr 2fr ;
+    grid-template-areas:
+    "nav nav nav"
+    "userProfile userProfile contacts"
+    "posts posts contacts";
+}
