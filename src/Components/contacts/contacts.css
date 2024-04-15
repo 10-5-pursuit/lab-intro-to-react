@@ -1,0 +1,7 @@
+.contact-div {
+    width: 100%;
+    display: grid;
+    /* justify-content: center; */
+    text-align: center;
+    box-sizing: border-box;
+}
