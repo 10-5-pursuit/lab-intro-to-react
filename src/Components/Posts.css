@@ -1,0 +1,12 @@
+.posts-parent{
+    grid-area: posts;
+    border: 3px solid black;
+    margin: 40px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
