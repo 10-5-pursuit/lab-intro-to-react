@@ -1,0 +1,29 @@
+.contactCard{
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.contactCard-img{
+    width: 90px;
+}
+
+.contactCard-user{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+
+    h5{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+.contactCard-user p{
+    font-size: small;
+    text-align: center;
+}

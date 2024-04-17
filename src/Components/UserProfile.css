@@ -1,0 +1,13 @@
+.userProfile-parent{
+    grid-area: userProfile;
+    border: 3px solid black;
+    margin: 40px;
+    padding: 0;
+
+    .contactCard{
+        display: flex;
+        border: none;
+        margin: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+.navBar{
+    background-color: #9fe5f1;
+    grid-area: navBar;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+
+button{
+    margin: 5px;
+    padding: 2px;
+}
