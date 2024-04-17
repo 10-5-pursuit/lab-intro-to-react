@@ -1,0 +1,14 @@
+.posts {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid black;
+
+}
+
+.each {
+    display: grid;
+    gap: 50px 10px;
+}

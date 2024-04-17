@@ -1,0 +1,36 @@
+.user-cardinfo {
+    display: grid;
+    grid-template-columns:max-content;
+    margin: 30px;
+    border: 2px solid black;
+    margin: 20px;
+    height: 208px;
+    width: 600px;
+}
+
+.contact-info {
+    grid-column: 2/3;
+    color: black;
+   text-align: start;
+   margin: 0;
+
+   
+}
+
+#contact-img {
+    height: 208px;
+}
+
+.contact-info h3 {
+    margin: 30px 30px;
+}
+
+.contact-info h4{
+    margin: 30px 30px;
+}
+
+
+.contact-info p {
+    margin: 30px 30px;
+}
+

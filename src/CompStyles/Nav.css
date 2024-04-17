@@ -1,0 +1,25 @@
+.nav_menu {
+    grid-column: 1/4;
+   grid-row: 1/2;
+    background-color: rgb(172, 215, 230);
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+
+}
+
+.nav_menu li, button{
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
