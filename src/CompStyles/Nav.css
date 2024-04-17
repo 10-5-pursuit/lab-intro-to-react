@@ -1,10 +1,12 @@
 .nav_menu {
-    grid-area: nav;
-    background-color: rgb(103, 103, 179);
-    height: 50px;
+    grid-column: 1/4;
+   grid-row: 1/2;
+    background-color: rgb(172, 215, 230);
+    height: 80px;
     text-decoration: none;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .nav_menu ul {

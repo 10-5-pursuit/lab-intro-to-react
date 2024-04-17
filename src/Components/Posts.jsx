@@ -3,11 +3,12 @@ import Post from "./Post";
 const Posts = () => {
     return (
         <div className="posts">
-            Posts
+            <p>Posts</p>
+            <div className="each">
             <Post/>
             <Post/>
             <Post/>
-            <Post/>
+            </div>
         </div>
 
 

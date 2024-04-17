@@ -3,15 +3,18 @@ import "./index.css";
 import "./CompStyles/App.css"
 import Navigation from "./Components/NavBar";
 import Posts from "./Components/Posts";
-// import UserInformation from "./Components/ContactUserCard";
+import ProfileOfUser from "./Components/UserProfile";
+import Contacts from "./Components/Contacts";
+
 function App() {
   return (
-    <div className="platform">
+    <div>
       <Navigation/>
+    <div className="platform">
       <Posts/>
-      {/* <UserInformation/> */}
-
-
+      <ProfileOfUser/>
+      <Contacts/>
+    </div>
     </div>
   )
 }

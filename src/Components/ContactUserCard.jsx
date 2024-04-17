@@ -1,15 +1,21 @@
-import "../CompStyles/userInfo.css";
+import "../CompStyles/ContactUserCard.css"
 
-const UserInformation = () => {
+function ContactUserCard () {
 
-    <div className="user-Information">
-        <img src=".src/profile.png"/>
-        <section>
-            <h3>Jordan Walke</h3>
-            <h4>React Creator</h4>
-            <p>Lorem Waka Flaka</p>
-        </section>
-    </div>
+    return (
+        <>
+        <div className="user-cardinfo">
+            <img id="contact-img" src="src/profile.png"/>
+            <div className="contact-info">
+                <h3>Jordan Walke</h3>
+                <h4>React Creator</h4>
+                <p>Lorem</p>
+            </div>
+        </div>
+        </>
+
+
+    )
 }
 
-export default UserInformation;
+export default ContactUserCard;
