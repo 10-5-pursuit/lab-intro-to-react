@@ -1,9 +1,9 @@
 import React from 'react';
-import './userProfile.css';
+import './contact.css';
 
-const UserProfile = () => {
+const Contact = () => {
     return (
-        <div className='userProfileContainer'>
+        <div className='contact-container'>
             <img src='./src/profile.png' alt="photo" width={150}/>
             <span className='descript'>
                 <h1>Jordan Walke</h1>
@@ -14,4 +14,4 @@ const UserProfile = () => {
     );
 };
 
-export default UserProfile;
+export default Contact;
