@@ -1,0 +1,13 @@
+.contact-container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.descript {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px; 
+}

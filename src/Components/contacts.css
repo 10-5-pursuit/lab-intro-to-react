@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactsContainer {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    height: fit-content;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+#contacts-H1 {
+    margin-bottom: 30px;
+}
