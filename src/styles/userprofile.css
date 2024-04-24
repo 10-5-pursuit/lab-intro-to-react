@@ -1,0 +1,14 @@
+/* userprofile.css */
+
+.profile-container {
+    padding: 20px;
+    width: 96%;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 25px;
+   margin-bottom: 20px;
+}
+
+.profile-card {
+    border: none;
+}

@@ -1,0 +1,20 @@
+/* contacts.css */
+
+
+.contacts-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border: 1px solid black;
+    height: 80px;
+    align-items: center;
+    width: 95%;
+    height: auto;
+
+}
+
+.contacts-header {
+    margin-top: 20px;
+   
+}

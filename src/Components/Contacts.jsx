@@ -1,13 +1,16 @@
-import ContactUserCard from "./ContactUserCard";
+import React from "react";
+import ContactCard from "./ContactCard";
+import '../styles/contacts.css'
 
 
 function Contacts() {
     return (
-      <div>
-        <h4 className="contacts">Contacts</h4>
-      <ContactUserCard />
-      <ContactUserCard />
-      <ContactUserCard />
+      <div className="contacts-container">
+        <h4 className="contacts-header">Contacts</h4>
+        <ContactCard className="contact-card"/>
+        <ContactCard className="contact-card"/>
+        <ContactCard className="contact-card"/>
+        <ContactCard className="contact-card"/>
       </div>
     );
   }
