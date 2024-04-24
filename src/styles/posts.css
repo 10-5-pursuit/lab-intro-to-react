@@ -1,0 +1,22 @@
+/* posts.css */
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    grid-row: 3 / 4;
+    row-gap: 15px;
+    height: 100%;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.post-header {
+    margin-bottom: 20px;
+}
+
+.post {
+    margin-bottom: 20px; 
+}
