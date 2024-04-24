@@ -1,3 +1,5 @@
+// Contacts.jsx
+s
 import React from "react";
 import ContactCard from "./ContactCard";
 import '../styles/contacts.css'

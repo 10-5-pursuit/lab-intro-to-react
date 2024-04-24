@@ -1,3 +1,5 @@
+// Posts.jsx
+
 import React from "react";
 import '../styles/posts.css'
 import Post from "./Post";

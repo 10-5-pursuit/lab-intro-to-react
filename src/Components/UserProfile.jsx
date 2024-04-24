@@ -1,3 +1,5 @@
+// UserProfile.jsx
+
 import React from "react";
 import ContactCard from "./ContactCard.jsx"
 import '../styles/userprofile.css'
